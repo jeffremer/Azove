@@ -22,7 +22,7 @@
 #include "conBDD.hpp"
 
 #include <stack>
-
+#include <limits>
 
 using namespace std;
 

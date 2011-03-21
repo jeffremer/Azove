@@ -4,7 +4,7 @@
 
 # Compiler g++
 CCC = g++
-COMPILER_FLAGS = -Wall -O3
+COMPILER_FLAGS = -Wall -O3 -Wno-deprecated
 
 #the number of sons of the signature MDD nodes can be fixed, this is recommended!
 # (this might lead to a shorter runtime and it definitely leads to less memory consumption but a worse hitrate)
