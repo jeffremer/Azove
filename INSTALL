@@ -1,0 +1,24 @@
+azove was developed with g++ 4.1.2.
+
+If you are working on a Linux machine just type
+make
+and it should compile fine.
+You might have a look at the Makefile for changing some compile options.
+Memory usage can be adjusted in the file azove.cpp.
+In case your machine provides /proc/meminfo (today all Linux kernels should do so)
+change the defined value LEFTOVER_FREE_MEMORY to your needs,
+otherwise play with the value FIXED_MDDNODEBASESIZE to adjust the memory consumption.
+
+azove accepts input files in the .ine format (H-representation) which is used by tools
+like lrs and cdd. A file format description can be found in the user guides
+of lrs and cdd or here
+http://cgm.cs.mcgill.ca/~avis/C/lrslib/USERGUIDE.html
+ftp://ftp.ifor.math.ethz.ch/pub/fukuda/cdd/cddman/cddman.html
+
+Equations given with 'linearity' are supported. Only 'integer' is allowed as numbertype.
+
+
+Please send any comments or bugs to
+Markus Behle
+behle@mpi-inf.mpg.de
+homepage: http://www.mpi-inf.mpg.de/~behle
